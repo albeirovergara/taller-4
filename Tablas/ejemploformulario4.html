@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario #4</title>
+</head>
+<body>
+    <form action="">
+    <table >
+        <tr>
+            <td colspan="2">
+                <center><strong>Basketball Registration Form</strong></center>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Player name <br>
+                <input type="text" placeholder="First" style="width: 200px;">
+                
+                <br><br>
+
+                Age<br>
+                <label for="age"></label>
+                <input type="number" id="age" name="age" min="30"
+                style="width: 200px;">
+
+
+
+
+
+            
+            </td>
+            <td>
+                <br>
+                <input type="text" placeholder="Last">
+                <br>
+                <br>
+                
+
+                Email <br>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[com]{3}">
+
+            </td>
+            <tr>
+                <td colspan="2">
+                 <center>
+                    Address <br>
+                </center>
+                    <input type="text"  placeholder="Street Address" style="width: 375px;">
+                    <br><br>
+                    <input type="text" placeholder="Street Address Line 2" style="width: 375px;">   
+                 
+                 <br>
+
+                </td>
+
+                <tr>
+                    
+                    <td>
+                        <br>
+                        <input type="text" placeholder="City" style="width: 200px;">
+                   </td>
+
+                   <td>
+                    <br>
+                    <input type="text" placeholder="Region" >
+                   </td>
+                </tr>
+                <tr>
+
+                    <td> <input type="text" placeholder="Postal/Zip Code" style="width: 200px;"></td>
+                    <td>
+                        <input type="text" list="lista" placeholder="Country">
+                        <datalist id="lista">
+                            <option value="123"></option>
+                            <option value="456"></option>
+                            <option value="789"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Home Phone <br>
+                        <input type="text" pattern="^[^\s]+(\s[^\s]+)?$" placeholder="### ### ####" style="width: 200px;">
+                    </td>
+                    <td>
+                        Cell Phone
+                        <br>
+                        <input type="text" pattern="^[^\s]+(\s[^\s]+)?$" placeholder="### ### ####">
+                    </td>
+                </tr>
+        
+            </tr>
+            <input type="submit">
+        </tr>
+
+        
+
+
+
+    </table>
+
+</form>
+
+
+
+    
+</body>
+</html>
